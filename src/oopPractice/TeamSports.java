@@ -1,2 +1,7 @@
-package oopPractice;public interface TeamSports {
+package oopPractice;
+
+public interface TeamSports {
+
+    public void teamSports();
+
 }
