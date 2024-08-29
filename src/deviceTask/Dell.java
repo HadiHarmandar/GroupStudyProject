@@ -1,8 +1,8 @@
 package deviceTask;
 
-public class Laptop extends PersonalComputer {
+public class Dell extends PersonalComputer {
 
-    public Laptop(String model, double price, String color, boolean hasBattery, boolean hasPowerButton, String cpu) {
+    public Dell(String model, double price, String color, boolean hasBattery, boolean hasPowerButton, String cpu) {
         super(model, price, color, hasBattery, hasPowerButton, cpu);
     }
 

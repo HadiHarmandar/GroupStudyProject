@@ -1,8 +1,8 @@
 package deviceTask;
 
-public class Desktop extends PersonalComputer {
+public class MacBookAir extends PersonalComputer {
 
-    public Desktop(String model, double price, String color, boolean hasBattery, boolean hasPowerButton, String cpu) {
+    public MacBookAir(String model, double price, String color, boolean hasBattery, boolean hasPowerButton, String cpu) {
         super(model, price, color, hasBattery, hasPowerButton, cpu);
     }
 

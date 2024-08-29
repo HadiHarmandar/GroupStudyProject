@@ -46,9 +46,9 @@ public abstract class Device {
 
     public void setPrice(double price) {
         if (price < 0) {
-            System.err.println("Price cannot be negative");
-            System.exit(1);
-            //throw new IllegalArgumentException("Price cannot be negative");
+//            System.err.println("Price cannot be negative");
+//            System.exit(1);
+            throw new IllegalArgumentException("Price cannot be negative");
         }
         this.price = price;
     }

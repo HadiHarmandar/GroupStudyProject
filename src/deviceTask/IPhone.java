@@ -9,7 +9,7 @@ public class IPhone extends Phone implements AppleApps {
 
     @Override
     public void turnOn() {
-        System.out.println(getModel() + " turned on");
+        System.out.println(getModel() + " turned on device");
     }
 
     @Override
