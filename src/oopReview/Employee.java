@@ -12,13 +12,13 @@ public abstract class Employee extends Person {
         hasJob = true;
     }
 
-    public Employee(String name, int age, String employeeId, String jobTitle, double salary, String companyName) {
+    public Employee(String name, int age, String employeeId, double salary, String companyName) {
         super(name, age);
         if (employeeId == null || employeeId.isEmpty()) {
             throw new IllegalArgumentException("Employee ID cannot be null or empty");
         }
         this.employeeId = employeeId;
-        setJobTitle(jobTitle);
+        setJobTitle(getClass().getSimpleName());
         setSalary(salary);
         setCompanyName(companyName);
     }
